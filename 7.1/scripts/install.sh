@@ -15,7 +15,7 @@ apt-get install -y php7.1-gd php7.1-mysql php7.1-mcrypt php7.1-sqlite3 \
     php-imagick
 apt-get install -y imagemagick inkscape pngnq pngcrush xvfb cabextract \
     poppler-utils xz-utils libreoffice libreoffice-math jpegoptim ffmpeg \
-    html2text ghostscript
+    html2text ghostscript exiftool
 
 # wkhtmltopdf
 apt-get install -y xfonts-75dpi
