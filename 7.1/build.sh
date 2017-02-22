@@ -1,4 +1,4 @@
 #!/bin/sh
-docker pull blackikeeagle/php-debian:7.1
+docker pull dockerwest/php:7.1
 
-docker build --no-cache -t blackikeeagle/php-pimcore:7.1 .
+docker build --no-cache -t dockerwest/php-pimcore:7.1 .

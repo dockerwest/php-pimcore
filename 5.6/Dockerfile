@@ -1,4 +1,4 @@
-FROM blackikeeagle/php-debian:5.6
+FROM dockerwest/php:5.6
 
 COPY ./scripts /
 RUN /install.sh
