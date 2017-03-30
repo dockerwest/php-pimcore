@@ -12,7 +12,7 @@ mkdir /usr/share/man/man1/
 apt-get update
 apt-get install -y php7.0-gd php7.0-mysql php7.0-mcrypt php7.0-sqlite3 \
     php7.0-bz2 php7.0-xml php7.0-mbstring php7.0-zip php-redis php-memcached \
-    php-imagick
+    php-imagick php7.0-intl
 apt-get install -y imagemagick inkscape pngnq pngcrush xvfb cabextract \
     poppler-utils xz-utils libreoffice libreoffice-math jpegoptim ffmpeg \
     html2text ghostscript exiftool
