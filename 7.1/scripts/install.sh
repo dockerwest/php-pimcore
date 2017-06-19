@@ -19,10 +19,10 @@ apt-get install -y imagemagick inkscape pngnq pngcrush xvfb cabextract \
 
 # wkhtmltopdf
 apt-get install -y xfonts-75dpi
-curl "http://download.gna.org/wkhtmltopdf/0.12/0.12.2.1/wkhtmltox-0.12.2.1_linux-jessie-amd64.deb" \
-    -o wkhtmltopdf-0.12.deb
-dpkg -i wkhtmltopdf-0.12.deb
-rm wkhtmltopdf-0.12.deb
+curl -LO https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+tar -xf wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+cp -a wkhtmltox/bin/wkhtmltopdf /usr/local/bin/
+rm -rf wkhtmltox wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
 
 apt-get clean -y
 
