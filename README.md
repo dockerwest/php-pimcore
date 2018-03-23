@@ -3,6 +3,14 @@ PHP image for pimcore
 
 PHP container for pimcore applications. Pimcore is not installed in the Image.
 
+Environment variables
+---------------------
+
+The basic environment variables can be found in the [PHP baseimage
+README](https://github.com/dockerwest/php/blob/master/README.md).
+
+> Currently there are no additional environment variables
+
 Versions
 --------
 
