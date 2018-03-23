@@ -10,9 +10,9 @@ mkdir /usr/share/man/man1/
 
 # install packages
 apt-get update
-apt-get install -y php7.2-gd php7.2-mysql php7.2-sqlite3 php7.2-bz2 \
-    php7.2-xml php7.2-mbstring php7.2-zip php-redis php-memcached php-imagick \
-    php7.2-intl php7.2-soap
+
+extensions -i bz2 gd imagick intl mbstring memcached mysql redis soap \
+    sqlite3 xml zip
 apt-get install -y imagemagick inkscape pngnq pngcrush xvfb cabextract \
     poppler-utils xz-utils libreoffice libreoffice-math jpegoptim ffmpeg \
     html2text ghostscript exiftool

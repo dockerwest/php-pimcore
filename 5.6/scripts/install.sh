@@ -10,9 +10,9 @@ mkdir /usr/share/man/man1/
 
 # install packages
 apt-get update
-apt-get install -y php5.6-gd php5.6-mysql php5.6-mcrypt php5.6-sqlite3 \
-    php5.6-bz2 php5.6-xml php5.6-mbstring php5.6-zip php-redis php-memcached \
-    php-imagick php5.6-intl php5.6-soap
+
+extensions -i bz2 gd imagick intl mbstring mcrypt memcached mysql redis soap \
+    sqlite3 xml zip
 apt-get install -y imagemagick inkscape pngnq pngcrush xvfb cabextract \
     poppler-utils xz-utils libreoffice libreoffice-math jpegoptim ffmpeg \
     html2text ghostscript exiftool
