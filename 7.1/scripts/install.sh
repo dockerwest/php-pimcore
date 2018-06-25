@@ -27,3 +27,7 @@ rm -rf wkhtmltox wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
 apt-get clean -y
 
 rm -rf /usr/share/man/man1/
+
+# update permissions to allow rootless operation
+/usr/local/bin/permissions
+
