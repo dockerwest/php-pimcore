@@ -12,7 +12,7 @@ mkdir /usr/share/man/man1/
 apt-get update
 
 extensions -i bz2 gd imagick intl mbstring memcached mysql redis soap \
-    sqlite3 xml zip
+    sodium sqlite3 xml zip
 apt-get install -y imagemagick inkscape pngnq pngcrush xvfb cabextract \
     poppler-utils xz-utils libreoffice libreoffice-math jpegoptim ffmpeg \
     html2text ghostscript exiftool
