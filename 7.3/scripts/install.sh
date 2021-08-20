@@ -5,8 +5,6 @@ set -e
 # ffmpeg comes from backports
 echo "deb http://deb.debian.org/debian $(lsb_release -sc)-backports main" \
     > /etc/apt/sources.list.d/backports.list
-# java post install fails if not there
-mkdir /usr/share/man/man1/
 
 # install packages
 apt-get update
